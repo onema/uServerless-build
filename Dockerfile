@@ -1,4 +1,4 @@
-FROM onema/scala-sbt:8u171-2.12.6-1.2.1-build
+FROM onema/scala-sbt:correto-11-2.13.5-1.5.2-build
 
 RUN apk add --update nodejs && \
     apk add npm && \
